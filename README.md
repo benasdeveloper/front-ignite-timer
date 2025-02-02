@@ -1,50 +1,69 @@
-# React + TypeScript + Vite
+# Ignite Timer ⏳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A productivity-focused timer application built with **React**, **Vite**, and **TypeScript**, designed to help users stay on track with their tasks.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔥 **Fast and modern UI** powered by Vite and React
+- 🎯 **Task-based countdown timer**
+- 🎨 **Styled with Styled-Components**
+- ⏳ **State management with Immer**
+- 📆 **Date management with date-fns**
+- 🔍 **Form handling with React Hook Form and Zod validation**
+- 🌍 **Navigation with React Router DOM**
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React 18**
+- **TypeScript**
+- **Vite**
+- **Styled-Components**
+- **Immer**
+- **React Hook Form + Zod**
+- **React Router DOM**
+- **Phosphor React Icons**
+- **ESLint for code linting**
 
-- Configure the top-level `parserOptions` property like this:
+## 📜 Installation & Setup
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/YOUR_USERNAME/ignite-timer.git
+   cd ignite-timer
+   ```
+
+2. Install dependencies
+   ```sh
+   npm install
+   ```
+
+3.	Start the development server:
+    ```sh
+    npm run dev
+    ```
+
+4.	Start the development server:
+    ```sh
+    npm run build
+    ```
+
+5.	Preview the production build:
+    ```sh
+    npm run preview
+    ```
+
+## ✅ Linting
+Ensure code consistency by running:
+```sh
+npm run lint
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🤝 Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📄 License
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+This project is licensed under the MIT License.
+
+Made with ❤️ by Bene-Hur Pessoa
