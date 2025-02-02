@@ -2,6 +2,8 @@
 
 A productivity-focused timer application built with **React**, **Vite**, and **TypeScript**, designed to help users stay on track with their tasks.
 
+![Screenshot do Ignite Timer](public/assets/cover.jpg)
+
 ## 🚀 Features
 
 - 🔥 **Fast and modern UI** powered by Vite and React
