@@ -6,7 +6,9 @@ const DefaultLayout = () => {
   return (
     <LayoutContainer>
       <Header />
-      <Outlet />
+      <div style={{ overflowY: "auto" }}>
+        <Outlet />
+      </div>
     </LayoutContainer>
   );
 };
